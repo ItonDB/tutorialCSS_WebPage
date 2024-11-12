@@ -102,10 +102,47 @@ ul li a:hover{
 
 .item2{
     padding-top: 50px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    width: 60%;
+    height: 350px;
+}
+.card{
     width: 100%;
-    height: 50%;
+    border: 1px solid red;
+}
+.card1{
+    padding-top: 50px;
+    border: solid red 1px;
+    width: 95%;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #333;
+}
+.card1 h4{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.card1 p{
+    text-align: center;
+    padding-bottom: 80px;
+    color: #fff;
+}
+.btn-read{
+    text-align: center;
+}
+.btn-read a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f7df25;
+    padding: 0.5rem 1rem;
+}
+.btn-read a:hover{
+    background-color: #ab9b24;
 }
 .item3{
     padding-top: 50px;
